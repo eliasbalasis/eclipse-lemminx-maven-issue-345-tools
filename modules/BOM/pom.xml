@@ -22,6 +22,16 @@
 				<artifactId>tools.springframework</artifactId>
 				<version>${project.version}</version>
 			</dependency>
+			<dependency>
+				<groupId>mygroup</groupId>
+				<artifactId>eclipse-lemminx-maven-issue-345.tools.retry.springframework.interface</artifactId>
+				<version>${project.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>mygroup</groupId>
+				<artifactId>eclipse-lemminx-maven-issue-345.tools.retry.springframework.impl.dummy</artifactId>
+				<version>${project.version}</version>
+			</dependency>
 		</dependencies>
 	</dependencyManagement>
 
