@@ -36,7 +36,7 @@
 	<modules>
 		<module>modules/internal</module>
 		<module>modules/BOM</module>
-  </modules>
+	</modules>
 
 	<dependencyManagement>
 		<dependencies>
