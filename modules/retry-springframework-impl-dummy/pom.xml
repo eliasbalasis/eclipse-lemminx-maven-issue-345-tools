@@ -15,6 +15,10 @@
 
 	<packaging>jar</packaging>
 
+	<properties>
+		<myproperty>${net.upperlimit.root.test}</myproperty>
+	</properties>
+
 	<dependencies>
 		<dependency>
 			<groupId>mygroup</groupId>
