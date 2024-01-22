@@ -2,5 +2,8 @@
 /**/.classpath
 /**/.settings/
 /**/target/
-/results.csv
-/**/.factorypath
+/**/.flattened-pom.xml
+/**/pom.xml.next
+/**/pom.xml.releaseBackup
+/**/pom.xml.tag
+/**/release.properties
