@@ -7,14 +7,16 @@
 	<parent>
 		<groupId>mygroup</groupId>
 		<artifactId>eclipse-lemminx-maven-issue-345.root</artifactId>
-		<version>0.0.1-SNAPSHOT</version>
+		<version>0.0.2-SNAPSHOT</version>
 	</parent>
 
 	<artifactId>eclipse-lemminx-maven-issue-345.tools</artifactId>
+	<version>0.0.3-SNAPSHOT</version>
 
 	<packaging>pom</packaging>
 
 	<properties>
+
 		<maven.compiler.source>1.8</maven.compiler.source>
 		<maven.compiler.target>1.8</maven.compiler.target>
 
@@ -31,6 +33,7 @@
 		<version.json>20190722</version.json>
 		<version.commons-collections4>4.2</version.commons-collections4>
 		<version.uuid>3.2</version.uuid>
+
 	</properties>
 
 	<modules>
@@ -40,6 +43,11 @@
 
 	<dependencyManagement>
 		<dependencies>
+			<dependency>
+				<groupId>mygroup</groupId>
+				<artifactId>eclipse-lemminx-maven-issue-345.root.support</artifactId>
+				<version>${version.root}</version>
+			</dependency>
 			<dependency>
 				<groupId>org.slf4j</groupId>
 				<artifactId>slf4j-api</artifactId>
